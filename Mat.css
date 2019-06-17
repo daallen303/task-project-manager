@@ -1,0 +1,433 @@
+body
+{
+background-color: #07889b;
+margin:0px;
+width:100%;
+}
+h1
+{
+  
+}
+.description
+{
+background-color:#07889b;
+}
+#login
+{
+    
+}
+input
+{
+   
+}
+a{
+ 
+}
+.description
+{
+    background-color:#07889b;
+color : white;
+}
+.newprojectshow button
+{
+
+color : black;
+}
+.startedprojectshow button
+{
+color : black;
+}
+.completedprojectshow button
+{
+color : black;
+}
+
+.low
+{
+border-color: rgb(255, 209, 162);
+background-color: rgb(255, 209, 162);
+width:90%;
+margin:0px;
+ float: left;
+ height: 50px;
+}
+.medium
+{
+    border-color: #eeaa7b;
+background-color: #eeaa7b;
+width:90%;
+margin:0px;
+ float: left;
+ height: 50px;
+}
+.high
+{
+    border-color:#e37222;
+    color: white;
+    background-color: #e37222;
+    width:90%;
+    float: left;
+    margin:0px;
+    height: 50px;
+    border-type: solid;
+    border-color: #e37222;
+}
+.add
+{
+background-color: #66b9bf;
+border-radius: 8px;
+border-type: solid;
+border-color: #66b9bf;
+height: 50px;
+width:10%;
+float: left;
+}
+.add:hover
+{
+background: #81d6dc;
+}
+.jumbotron
+{
+color: #e37222;
+background-color: #07889b;
+margin-bottom: 0px; 
+text-align: center;
+}
+.minus
+{
+background: #81d6dc;
+border-type: solid;
+border-color: #07889b;
+border-radius: 8px;
+width:10%;
+float: left;
+height: 50px;
+}
+.projectnamelow button
+{
+background-color: #e3e3e3;
+width:90%;
+margin:0px;
+float: left;
+height: 50px;
+}
+.projectnamemedium button
+{
+background-color: #9ae3de;
+    width:90%;
+    margin:0px;
+    float: left;
+    height: 50px;
+}
+.projectnamehigh button
+{
+    background-color: #89bdd3;
+    width:90%;
+    float: left;
+    margin:0px;
+    height: 50px;
+}
+.newtask button
+{
+    border-radius: 8px;
+    color : darkslategrey;
+}
+.started button
+{
+    border-radius: 8px;
+    color : darkslategrey;
+}
+.completed button
+{
+    border-radius: 8px;
+    color : darkslategrey;
+} 
+.completed:hover
+{
+background-color: #81d6dc;
+}
+body
+{
+    width:100%;
+}
+.projects
+{
+    width: 90%;
+}
+.description
+{
+    background-color: #07889b;margin-top:3px;
+    margin-bottom:3px;
+    width: 100%;
+}
+.showeditproj
+{
+    margin-top:3px;
+    margin-bottom:3px;
+    font-size: 20px;
+    color:chocolate;
+}
+
+.hideeditproj
+{
+    margin-top:3px;
+    margin-bottom:3px;
+}
+.editproj
+{
+    margin-top:3px;
+    margin-bottom:3px;
+}
+.projecttasks
+{
+    margin-top:3px;
+    margin-bottom:3px;
+}
+.descriptiont
+{
+    margin-top:3px;
+    margin-bottom:3px;
+}
+.showedit
+{
+    border-color: #66b9bf;
+    background-color: #66b9bf;
+    width: 50%;
+    height: 30px;
+    margin-top:3px;
+    margin-bottom:3px;
+    color: white;
+}
+.showedit:hover
+{
+    color: white;
+}
+.hideedit
+{
+    width: 50%;
+    margin-top:3px;
+    margin-bottom:3px;
+}
+.edit
+{
+   border-radius: 8x;
+    margin-top:3 px;
+    margin-bottom:3px;
+}
+#createprojdiv
+{
+    border-color: #66b9bf;
+    background-color: #66b9bf; 
+    border-radius: 6px;
+    color: white;
+}
+#createtaskshow
+{
+    border-color: #66b9bf;
+    background-color: #66b9bf; 
+    border-radius: 6px;
+    color: white;
+    width:50%;
+    height: 50px;
+    float: left;
+}
+#createtaskshow:hover
+{
+   background-color: #81d6dc;
+}
+#createtaskhide
+{
+    border-radius: 8px;
+    width:50%;
+    height: 50px;
+    float: left;
+}
+#createprojshow
+{
+    border-color: #66b9bf;
+    background-color: #66b9bf; 
+    border-radius: 6px;
+    color: white;
+    width:50%;
+    height: 50px;
+    float: left;
+}
+#createprojhide
+{
+    border-radius: 8px;
+    width:50%;
+    height: 50px;
+    float: left;
+
+}
+.bottumbottons
+{
+    position:fixed;
+    bottom: 0px;
+    left: 0px;
+    width:100%;
+}
+.bottumbottons button
+{
+    
+    border-radius: 8px;
+    border-type: solid;
+    border-color: #81d6dc;
+    background-color:  #81d6dc;
+    border-radius: 8px;
+    width:33%;
+    height: 50px;
+    margin:0px;
+    float: left;
+}
+textarea
+{
+    width: 50%;
+    resize: none;
+    
+}
+input[type=text]
+{
+    width:50%;
+    height:30px;
+}
+select
+{
+    color: white;
+    margin-top:3px;
+    border-radius: 6px;
+    border-color: #66b9bf;
+    width: 50%;
+    height:30px;
+    background-color: #66b9bf;
+}
+select:hover
+{
+   background-color: #81d6dc;
+}
+input[type=submit]
+{
+    margin-top:3px;
+    border-color: #66b9bf;
+    background-color: #66b9bf;
+    border-radius: 6px;
+    width: 50%;
+    height: 30px;
+}
+input[type=submit]:hover
+{
+    background-color:#81d6dc;
+}
+#projectlink
+{
+border-color: #66b9bf;
+    background-color: #66b9bf; 
+    border-radius: 6px;
+    color: white;
+    width:20%;
+    height: 50px;
+    float: left;
+}
+#projectlink:hover
+{
+    background-color: #81d6dc;
+}
+#taskslink
+{
+    border-color: #66b9bf;
+    background-color: #66b9bf; 
+    border-radius: 6px;
+    color: white;
+    width:20%;
+    height: 50px;
+    float: left;
+}
+.description p
+{
+    background-color: #07889b;
+    margin-top: 20px;
+    background-color:;
+    float:right;
+    text-align: center;
+    width:50%;
+   }
+#aboutlink
+{
+    border-color: #66b9bf;
+    background-color: #66b9bf; 
+    border-radius: 6px;
+    color: white;
+    width: 20%;
+    height: 50px;
+    float: left;
+}
+#aboutlink:hover
+{
+    background-color:#81d6dc;
+}
+#logout
+{
+    border-color: #66b9bf;
+    background-color: #66b9bf; 
+    border-radius: 6px;
+    color: white;
+    width:10%;
+    height: 50px;
+    float: left;
+}
+#logout:hover
+{
+    background-color:#81d6dc;
+}
+.projectnamehigh .add
+{
+    background-color: darkgray;
+    width:10%;
+    float: left;
+    margin:0px;
+    height: 50px;
+}
+.projectnamelow .add
+{
+    background-color: white;
+    width:10%;
+    margin:0px;
+    float: left;
+    height: 50px;
+}
+.projectnamemedium .add
+{
+    background-color: lightgray;
+    width:10%;
+    margin:0px;
+    float: left;
+    height: 50px;
+}
+.projectnamemedium .minus
+{
+    background-color: lightgray;
+    width:10%;
+    margin:0px;
+    float: left;
+    height: 50px;
+}
+.projectnamehigh .minus
+{
+    background-color: darkgray;
+    width:10%;
+    float: left;
+    margin:0px;
+    height: 50px;
+}
+.projectnamelow .minus
+{
+    background-color: white;
+    width:10%;
+    margin:0px;
+    float: left;
+    height: 50px;
+}
+.newtaskbutton .button
+{
+color: white;
+}

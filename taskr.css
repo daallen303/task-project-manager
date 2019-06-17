@@ -1,0 +1,694 @@
+button
+{
+        width: 50%;
+    background-color :#0A1612;
+ color: white;
+ height: 30px;
+}
+
+.newtask
+{
+    width: 100%;
+    background-color: aliceblue;
+     border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+.completed
+{
+   width: 100%;
+    background-color: aliceblue;
+     border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+.started
+{
+ width: 100%;
+    background-color: aliceblue;
+      border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+.projectstuff
+{
+    width: 100%;
+    
+}
+.bottumbottons
+{
+    position:fixed;
+    bottom: 0px;
+    width:100%;
+    display: block;
+    margin:auto;
+   
+}
+.bottumbottons button
+{
+    width:33.3333333333333333333%;
+    height: 50px;
+margin:0px;
+float: left;
+ background-color : #0A1612;
+color: white;
+}
+@media screen and (min-width: 1000px) {
+.mainbody
+{
+width: 70%;
+display: block;
+margin:auto;
+}
+.bottumbottons
+{
+    position:fixed;
+    bottom: 0px;
+    display: block;
+    margin:auto;
+    width:70%;
+}
+}
+@media screen and (min-width: 650px) {
+
+.newtask
+{
+    width: 50%;
+    float: right;
+    background-color: aliceblue;
+      border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+.completed
+{
+    width: 50%;
+    float: right;
+    background-color: aliceblue;
+      border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+.started
+{
+  border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    width: 50%;
+    float: right;
+    background-color: aliceblue;
+}
+
+
+#createuserbutton
+{
+ background:none;
+     color:blue;
+     border:none; 
+     padding:0;
+     font: inherit;
+     cursor: pointer;
+     padding-top: 5px;
+}
+#hideuser
+{
+    color:blue;
+background:none;
+     border:none; 
+     padding:0;
+     font: inherit;
+     cursor: pointer;
+     padding-top:5px;
+}
+.mainmenu
+{
+display: block;
+margin: auto;
+width: 70%;
+height: 100px;
+margin-top: 40px;
+     background-color : #0A1612;
+color: white;
+
+}
+body
+{
+margin:0px;
+width:100%;
+background-color: #C5C1C0;
+}
+h1
+{
+  
+}
+.description
+{
+
+}
+input
+{
+   
+}
+a{
+ 
+}
+.description
+{
+color : black;
+}
+.newprojectshow button
+{
+color : white;
+}
+.startedprojectshow button
+{
+color : white;
+}
+.completedprojectshow button
+{
+color : white;
+} 
+.low
+{
+background-color: #5A8aa1;
+width:100%;
+margin:0px;
+ float: left;
+ height: 50px;
+}
+.medium
+{
+background-color: #3c5f6f;
+width:100%;
+margin:0px;
+ float: left;
+ height: 50px;
+}
+.high
+{
+    background-color:#2d4854;
+    width:100%;
+    float: left;
+margin:0px;
+height: 50px;
+}
+.add
+{
+background-color:#f7ce3e;
+ color: white;
+    width:10%;
+    float: left;
+margin:0px;
+height: 50px;
+
+}
+.jumbotron
+{
+  margin-bottom: 0px;  
+  text-align: center;
+   background-color: #C5C1C0;
+   color: #0A1612;
+}
+.minus
+{
+
+background-color:#f7ce3e;
+ color: white;
+    width:10%;
+    float: left;
+margin:0px;
+height: 50px;
+}
+.projectnamelow button
+{
+   background-color: #5a8aa1;
+width:100%;
+margin:0px;
+ float: left;
+ height: 50px;
+}
+.projectnamemedium button
+{
+   background-color: #3c5f6f;
+width:100%;
+margin:0px;
+ float: left;
+ height: 50px;
+}
+.projectnamehigh button
+{
+ background-color: #2d4854;
+    width:100%;
+    float: left;
+margin:0px;
+height: 50px;
+}
+.newtask button
+{
+color:white;
+}
+.started button
+{
+color : white;
+}
+.completed button
+{
+color : white;
+} 
+body
+{
+width:100%;
+}
+.projects
+{
+width: 90%;
+}
+.descriptionp
+{
+margin-top:3px;
+margin-bottom:3px;
+width: 100%;
+text-align:center;
+float:right;
+}
+
+.addtaskto
+{
+    width:100%;
+}
+.showeditproj
+{
+margin-top:3px;
+margin-bottom:3px;
+  background-color : #0A1612;
+color: white;
+ width:100%;
+}
+.mainbody
+{
+    margin-bottom:800px;
+}
+.hideeditproj
+{
+margin-top:3px;
+margin-bottom:3px;
+width: 100%;
+}
+.descriptiontext
+{
+    height: 60px;
+}
+.editproj
+{
+margin-top:3px;
+margin-bottom:3px;
+}
+.projecttasks
+{
+margin-top:3px;
+margin-bottom:3px;
+}
+.descriptiont
+{
+margin-top:3px;
+margin-bottom:3px;
+}
+.showedit
+{
+width: 100%;
+margin-top:3px;
+margin-bottom:3px;
+}
+.hideedit
+{
+width: 100%;
+margin-top:3px;
+margin-bottom:3px;
+}
+.edit
+{
+margin-top:3px;
+margin-bottom:3px;
+}
+#createprojdiv
+{
+
+}
+#createtaskshow
+{
+width:25%;
+height: 50px;
+float: left;
+background-color :#0A1612;
+ color: white;
+}
+#createtaskhide
+{
+width:25%;
+height: 50px;
+float: left;
+
+}
+#createprojshow
+{
+width:25%;
+height: 50px;
+float: left;
+background-color :#0A1612;
+ color: white;
+}
+#createprojhide
+{
+width:25%;
+height: 50px;
+float: left;
+background-color :#0A1612;
+ color: white;
+
+}
+
+textarea
+{
+    width: 100%;
+    resize: none;
+    
+}
+input[type=text]
+{
+    width:100%;
+    height:30px;
+}
+#login
+{
+display: block;
+margin:auto;
+text-align: center;
+}
+#login input
+{
+display: block;
+margin:auto;
+}
+#login button
+{
+display: block;
+margin:auto;
+}
+select
+{
+    width: 100%;
+    height:30px;
+    
+}
+input[type=submit]
+{
+    width: 100%;
+    background-color :#0A1612;
+ color: white;
+ height: 30px;
+}
+input[type=password]
+{
+    width: 50%;
+}
+#projectlink
+{
+width:25%;
+height: 50px;
+float: left;
+ background-color :#0A1612;
+color: white;
+}
+#taskslink
+{
+width:25%;
+height: 50px;
+float: left;
+ background-color :#0A1612;
+ color: white;
+}
+.description p
+{
+float:right;
+   text-align: center;
+   width:50%;
+   }
+#aboutlink
+{
+width: 25%;
+height: 50px;
+float: left;
+background-color :#0A1612;
+ color: white;
+}
+#logout
+{
+width:10%;
+height: 50px;
+float: right;
+background-color: #C5C1C0; 
+border-style: none;
+ color: white;
+}
+.projectnamehigh .add
+{
+ background-color:#f7ce3e;
+ color: white;
+    width:10%;
+    float: left;
+margin:0px;
+height: 50px;
+}
+.projectnamelow .add
+{
+ background-color:#f7ce3e;
+ color: white;
+    width:10%;
+    float: left;
+margin:0px;
+height: 50px;
+}
+.projectnamemedium .add
+{
+ background-color:#f7ce3e;
+ color: white;
+    width:10%;
+    float: left;
+margin:0px;
+height: 50px;
+}
+.projectnamemedium .minus
+{
+ background-color:#f7ce3e;
+ color: white;
+    width:10%;
+    float: left;
+margin:0px;
+height: 50px;
+}
+.projectnamehigh .minus
+{
+  background-color:#f7ce3e;
+ color: white;
+    width:10%;
+    float: left;
+margin:0px;
+height: 50px;
+}
+.projectnamelow .minus
+{
+  background-color:#f7ce3e;
+ color: white;
+    width:10%;
+    float: left;
+margin:0px;
+height: 50px;
+}
+.bottumbottons button:hover
+
+{
+    color: #f7ce3e;
+}
+#createtaskshow:hover 
+{
+	color: #f7ce3e;
+}
+#taskslinkabout
+{
+ float: left;
+ height: 40px;
+}
+#projectslinkabout
+{
+ height: 40px;
+ float: left;
+}
+#projectlink:hover
+{
+    color: #f7ce3e;
+}
+#aboutlink:hover
+{
+    color: #f7ce3e;
+}
+#logout:hover
+{
+    color: #f7ce3e;
+}
+#taskslink:hover
+{
+ color: #f7ce3e;
+}
+#createprojshow:hover
+{
+ color: #f7ce3e;
+}
+.description
+{
+margin-top:3px;
+margin-bottom:3px;
+width: 100%;
+text-align:center;
+float:right;
+}
+#allprojects
+{
+width:25%;
+height: 50px;
+float: left;
+background-color :#0A1612;
+ color: white;
+}
+#allprojects:hover
+{
+    color: #f7ce3e;
+}
+.showeditproj:hover
+{
+color: #f7ce3e;
+}
+.showedit:hover
+{
+color: #f7ce3e;
+}
+.hideedit:hover
+{
+    color: #f7ce3e;
+}
+.hideeditproj:hover
+{
+    color: #f7ce3e;
+}
+.addtaskto:hover
+{
+color: #f7ce3e;
+}
+.hideaddtaskto:hover
+{
+color: #f7ce3e;
+}
+.hideaddtaskto
+{
+width: 100%;
+}
+.none
+{
+    text-align: center;
+}
+#createtaskshownull
+{
+width:25%;
+height: 50px;
+float: left;
+background-color :#0A1612;
+ color: red;
+}
+.mainmenu:hover
+{
+color: #f7ce3e;
+}
+input[type=submit]:hover
+{
+  color: #f7ce3e;  
+}
+#alltasks
+{
+width:25%;
+height: 50px;
+float: left;
+ background-color :#0A1612;
+color: white;
+}
+#alltasks:hover
+{
+color: #f7ce3e; 
+}
+#createtaskhide:hover
+{
+color: #f7ce3e;
+
+}
+#createprojhide:hover
+{
+color: #f7ce3e;
+}
+button:hover
+{
+    color: #f7ce3e;
+}
+#userlogin
+{
+    text-align:center;
+    width: 50%;
+    diplay: block;
+    margin:auto;
+}
+#userlogin input
+{
+    text-align:center;
+    width: 100%;
+    diplay: block;
+    margin:auto;
+}
+#createuser
+{
+    text-align:center;
+    width: 50%;
+    diplay: block;
+    margin:auto;
+}
+#createuser input
+{
+    text-align:center;
+    width: 100%;
+    diplay: block;
+    margin:auto;
+}
+.add:hover
+{
+color: black;
+}
+.minus:hover
+{
+color: black;
+}
+.medium:hover
+{
+     color: #f7ce3e;
+}
+.low:hover
+{
+     color: #f7ce3e;
+}
+.high:hover
+{
+    color: #f7ce3e;
+}
+.add:hover
+{
+color: black;
+}
+.minus:hover
+{
+color: black;
+}

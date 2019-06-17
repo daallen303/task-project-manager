@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<title>About</title>
+	<head><meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8"> 
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script><link rel="stylesheet" type ="text/css" href ="./taskr.css"></head>
+<div class="mainbody">
+	<button id="logout" onclick="logout()">Log Out</button>
+<div class="jumbotron"><h1>About</h1></div>
+<button id="taskslinkabout" onclick="task()">Tasks</button>
+<button id="projectslinkabout" onclick="project()">Projects</button>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h1>About Page</h1>
+<p>&nbsp;</p>
+<h2>What is This site?</h2>
+<p>Life can be overwhelming and it can be difficult to stay on top of all the different projects you have. This is a task and project management application that allows you to organize your assignments in order of urgency and shows your progress to keep you on track of the most important projects in your life. By utilizing three separate categories for your assignments, new task, started, and completed, you&rsquo;ll be able to follow your success from conception to completion.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h2>How to</h2>
+<p><strong>Create a new task</strong></p>
+<p>From the task page click the button labeled &ldquo;Create new task,&rdquo; from there you&rsquo;ll be prompted to give your task a name and a brief description of what needs to be done. From this screen, you can also set the level of priority from low to high. Once you are satisfied with your description of the task click the &ldquo;Save task&rdquo; button and it will appear in your &ldquo;New task&rdquo; section.</p>
+<p><strong>Create a new project</strong></p>
+<p>From the project page click the button labeled &ldquo;Create new project,&rdquo; again you will be prompted to give the project a name and a brief description. From here you will also be prompted to add tasks to your project, each one is given a level of priority. Once all the tasks have been added click the &ldquo;Save project&rdquo; button and it will appear in the &ldquo;New project&rdquo; section.</p>
+<p><strong>View the details of a task/ project</strong></p>
+<p>locate the task or project you want and click on it to view the details of and click on it;. From there you can view the description, priority, and any projects that may be associated with that task.</p>
+<p><strong>Change the completion status of a task</strong></p>
+<p>All newly added tasks and projects start off in the &ldquo;New&rdquo; section but once you start making progress on that task you can move it to the started group. By clicking the name of the task its details will appear. From here you can change the completion status to &ldquo;started&rdquo; or &ldquo;complete.&rdquo; To view these tasks, click the button labeled &ldquo;Started&rdquo; or &ldquo;Completed.&rdquo;</p>
+<p><strong>Edit a task that&rsquo;s already been started</strong></p>
+<p>If the details or the priority of your task has changed you can still edit it. First click the yellow &ldquo;+&rdquo; next to the task you want to edit and the details will show up. From there you can change the description, edit the priority, or even delete the task. Once you are satisfied with the alterations you have made, click the &ldquo;save task&rdquo; button and the changes will now show next time you view the details of that task.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h2>Frequently Asked Questions</h2>
+<p><strong>Q.&nbsp;</strong>What is the difference between tasks and projects?</p>
+<p><strong>A. </strong>A task is an assignment with only one requirement. Examples of tasks would be: read chapter 14, math homework for section 16.4, or study for economics exam. Each of these are independent of other tasks. Projects, however, are composed of several tasks, and are only considered completed when all the tasks that make up the project are done. For example, say you have a big semester long project. There would be several tasks to complete for the project to be considered done, and these are grouped together in the project folder. Once all tasks in the project are finished, the project itself is completed.</p>
+<p><strong>Q. </strong>What do the different colors on my tasks/ projects mean?</p>
+<p><strong>A. </strong>Your tasks and projects appear in order or priority, with the highest priority at the top of the list, and the lower priority at the bottom. The colors are another way of displaying the urgency of the assignments. With the darkest blue signifying the highest priority and the lightest blue denoting the lowest priority.</p>
+<p><strong>Q. </strong>How do I add tasks to a project after I started working on it?</p>
+<p><strong>A.&nbsp;</strong>If a project needs another task after you&rsquo;ve started working on it click the &ldquo;New task&rdquo; button in the task window. From there add the name, description, and priority of the task. You will also be given the option to add the task to an existing project. Click the dropdown menu and locate the name of the project you want to add the task to. Once you have done this click the &ldquo;Save task&rdquo; button, it will now appear under the project selected.</p>
+</div>
+</html>
+<script>
+function task()
+	{
+		window.location.href = "./tasks.php";
+	}
+	function project()
+	{
+		window.location.href = "./projects.php";
+	}
+</script>
